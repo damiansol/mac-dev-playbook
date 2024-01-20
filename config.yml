@@ -61,54 +61,26 @@ homebrew_taps:
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - 1password
-  - ableton-live-suite
+#  - ableton-live-suite || Music computer only
+  - arc
   - brave-browser
-  - cheatsheet
-  - coconutbattery
   - discord
-  - gitkraken
-  - gitup
-  - google-chrome
   - google-cloud-sdk
-  - handbrake
-  - irccloud
-  - iterm2
-  - julia
-  - launchcontrol
-  - macdown
-  - nativedisplaybrightness
-  - obs
   - plex
   - rectangle
   - signal
-  - skype
   - slack
   - sonos
   - spotify
-  - stea
   - sublime-text
-  - vcv-rack
   - visual-studio-code
   - vlc
-  - whatsapp
-  - zenith
   - zoom
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
-  - { id: 1432731683, name: "Adblock Plus for Safari ABP" }
-  - { id: 722444976, name: "Anytune" }
-  - { id: 424389933, name: "Final Cut Pro" }
   - { id: 682658836, name: "GarageBand" }
   - { id: 409035833, name: "iReal Pro" }
-  - { id: 634148309, name: "Logic Pro" }
-  - { id: 784801555, name: "Microsoft OneNote" }
-  - { id: 585829637, name: "Todoist" }
-  - { id: 585829637, name: "Todoist" }
-  - { id: 1432731683, name: "Adblock Plus for Safari ABP" }
-  - { id: 784801555, name: "Microsoft OneNote" }
-  - { id: 585829637, name: "Todoist" }
-  
 
 mas_email: ""
 mas_password: ""
