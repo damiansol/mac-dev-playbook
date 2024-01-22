@@ -6,7 +6,7 @@ configure_sudoers: no
 configure_terminal: no
 configure_osx: no
 
-dotfiles_repo: https://github.com/stackedsax/dotfiles.git
+dotfiles_repo: https://github.com/damiansol/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/dotfiles
 dotfiles_files:
@@ -60,19 +60,36 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+
+# Apps to add:
+# - Arturia downloader thingy // only for music computer
   - 1password
-#  - ableton-live-suite || Music computer only
+  - a-better-finder-rename
+  # - ableton-live-suite // only for music computer
+  - adobe-creative-cloud
   - arc
+  - asana
   - brave-browser
   - discord
-  - google-cloud-sdk
-  - plex
+  - dropbox
+  - evernote
+  - firefox
+  - google-drive
+  # - ilok-license-manager // only for music computer
+  - iterm2
+  - microsoft-powerpoint
+  - microsoft-word
+  - microsoft-excel
+  # - native-access // only for music computer
+  - nativedisplaybrightness
   - rectangle
   - signal
   - slack
-  - sonos
+  # - soundtoys // only for music computer 
   - spotify
   - sublime-text
+  - textexpander
+  - teamviewer
   - visual-studio-code
   - vlc
   - zoom
@@ -81,9 +98,16 @@ homebrew_cask_apps:
 mas_installed_apps:
   - { id: 682658836, name: "GarageBand" }
   - { id: 409035833, name: "iReal Pro" }
+  - { id: 634148309, name: "Logic Pro" }
+  - { id: 585829637, name: "Todoist" }
+  - { id: 405537804, name: "Sound Studio" }
+  - { id: 506189836, name: "Harvest" }
+  # - { id: 1339418001, name: "Minimoog Model D Synthesizer" } // only for music computer
+  - { id: 405399194, name: "Kindle" }
+  - { id: 1033342465, name: "Just Press Record" }
 
-mas_email: ""
-mas_password: ""
+mas_email: "manwreck@icloud.com"
+mas_password: "[saRDWNWUqf2ks>Cw4WjJtUxuVVWG]E"
 
 osx_script: "~/.osx --no-restart"
 
@@ -104,7 +128,7 @@ npm_packages: []
   # - name: webpack
   #   state: present # present/absent/latest, default: present
   #   version: "^2.6" # default: N/A
-pip_packages:
+pip_packages:  
   # - name: pipsi
   # - name: pygments
   #   state: present # present/absent/latest, default: present
